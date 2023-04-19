@@ -28,9 +28,9 @@ class App extends React.Component {
 		const { advice } = this.state;
 
 		return (
-			<div className="app">
-				<div className="card">
-					<h1 className="heading">
+			<div className="a">
+				<div className="b">
+					<h1 className="c">
 					{this.state.advice}
 					</h1>
 				</div>

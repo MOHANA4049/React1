@@ -2,10 +2,9 @@
 	margin: 0;
 	padding: 0;
 	height: 100vh;
-	box-sizing: border-box;
 }
 
-.app {
+.a {
 	height: 100%;
   background: url(../src/images/quote1.jpeg);
 	background-size: cover;
@@ -16,7 +15,7 @@
 	text-align: center;
 }
 	
-.card {
+.b {
 	background: whitesmoke;
 	width: 40%;
 	height: 30%;
@@ -28,7 +27,7 @@
 	box-shadow: 5px 5px;
 }
 	
-.heading {
+.c {
 	display: flex;
 	align-items: center;
 	height: 350px;
@@ -39,20 +38,15 @@
   position:fixed;
   bottom:10%;
   right:10%;
-  transition: all .5s ease;
-	outline: none;
 	text-decoration: none;
 	border-radius: 50%;
-	display:flex;
 	justify-content: center;
 	align-items: center;
-	cursor: pointer;
 	text-transform: uppercase;
 	height: 100px;
 	width: 150px;
-	opacity: 1;
 	background-color:plum;
-	border: 1px solid rgba(22, 76, 167, 0.6);
+	border: 2px solid rgba(22, 76, 167, 0.6);
 }
 button:hover {
     color: #001F3F;
